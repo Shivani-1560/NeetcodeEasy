@@ -12,14 +12,9 @@ public:
             }
             a.insert(a.begin(),1);
             return a;
-        
-
-   
-
-
-
-
-      /*  for(int i=n-1;i>=0;i--){
+    
+//Another Approach
+      for(int i=n-1;i>=0;i--){
             if(i==n-1){
             a[i]++;}
            
@@ -34,7 +29,7 @@ public:
             }
                
             }
-      return a;*/
+      return a;
     
     }
 };
